@@ -5,7 +5,7 @@ function login(){
     pass = document.getElementById("contraseña").value;
 
     if(user == 'Usuario@correo.com' && pass == '1234'){
-        window.location= "./html/Sesion.html";
+        window.location= "/html/Sesion.html";
         alert('Se ha iniciado sesion con exito');
     }
 }
