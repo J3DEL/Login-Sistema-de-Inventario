@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registro de Usuario</title>
+    <link rel="stylesheet" href="../css/Form.css">
+</head>
+<body>
+    <div class="caja-login">
+        <!--imagen del login-->
+        <img class="avatar" src="../img/Logo.png" alt="logo inventario">
+        <h1>Crear una nueva cuenta</h1>
+        <form>
+           <!--Usuario--> 
+           <label for="usuario">Correo electronico</label>
+           <input type="text" placeholder="Ingrese su correo electronico" required>
+
+           <!--Contraseña--> 
+           <label for="contraseña">Contraseña</label>
+           <input type="password" placeholder="Ingrese una contraseña" required>
+           <label for="contraseña"></label>
+           <input type="password" placeholder="Vuelva a escribir la contraseña" required>
+           <input id='registro' type="submit" value="Crear Cuenta" onclick="reg()">
+
+           <a href="../index.html">¿Ya tiene una cuenta? Inicie sesión aquí</a>
+           
+        </form>
+    </div>
+    <script type="text/javascript" src="../js/main.js"></script>
+    <script>
+        function reg() {
+            
+            location.href="../index.html";
+            alert('registrado satisfactoriamente');
+        }
+    </script>
+</body>
+</html>
