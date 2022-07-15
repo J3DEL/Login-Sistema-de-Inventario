@@ -12,7 +12,7 @@ function login(){
     pass = document.getElementById("contraseña").value;
 
     if(user == 'Usuario@correo.com' && pass == '1234'){
-        location.href="../html/index-menu.html";
+        window.location.href="../html/index-menu.html";
         alert('Se ha iniciado sesion con exito');
     }
 }
