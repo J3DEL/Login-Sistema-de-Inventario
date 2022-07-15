@@ -14,6 +14,8 @@ function login(){
     if(user == 'Usuario@correo.com' && pass == '1234'){
         window.location="../html/index-menu.html";
         alert('Se ha iniciado sesion con exito');
+    }else {
+        alert('Usuario no registrado');
     }
 }
 
