@@ -1,3 +1,10 @@
+var usuarios = [];
+var contrasenias = [];
+
+function registro() {
+    
+}
+
 function login(){
     var user, pass;
 
@@ -5,7 +12,7 @@ function login(){
     pass = document.getElementById("contraseña").value;
 
     if(user == 'Usuario@correo.com' && pass == '1234'){
-        window.location="html/Sesion.html";
+        location.href="../html/index-menu.html";
         alert('Se ha iniciado sesion con exito');
     }
 }
