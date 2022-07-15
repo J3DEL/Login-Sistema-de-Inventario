@@ -1,5 +1,5 @@
-var usuarios = [];
-var contrasenias = [];
+//var usuarios = [];
+//var contrasenias = [];
 
 function registro() {
     
