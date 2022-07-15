@@ -1,4 +1,3 @@
-
 let Ingresar = document.getElementById('ejecutar');
 Ingresar.addEventListener('click', function(){
     var user, pass;
@@ -32,3 +31,4 @@ Registrar.addEventListener('click', function(){
     }
     */
 });
+
